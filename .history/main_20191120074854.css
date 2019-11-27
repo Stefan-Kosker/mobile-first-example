@@ -1,0 +1,23 @@
+html{
+    width: 100%;
+    position: absolute;
+}
+
+body{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+picture img {
+    width: 100%;
+}

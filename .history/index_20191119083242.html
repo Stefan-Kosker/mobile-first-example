@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+    <h1>Main Heading</h1>
+
+    <p class="small">Visible for Mobile People</p>
+    <p class="medium">Visible for Tablet People</p>
+    <p class="large">Visible for Laptop Users</p>
+    <p class="extra-large">Visible for Big Boi Screen People</p>
+
+    <div class="outer-container">
+        <div class=block>
+            Left Block
+        </div>
+        <div class=block>
+            Right Block
+        </div>
+    </div>
+
+    <picture>
+        <source srcset="xl-image.png" media="(min-width: 1200px)">
+        <source srcset="la-image.png" media="(min-width: 1024px)">
+        <source srcset="medium-image.png" media="(min-width: 768px)">
+        <img src="xs-image.png" alt="image alt text">
+    </picture>
+
+</body>
+
+
+
+</html>

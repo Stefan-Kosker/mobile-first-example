@@ -1,0 +1,9 @@
+.medium,
+.large,
+.extra-large {
+    display: none;
+}
+
+h1{
+    color: blue;
+}

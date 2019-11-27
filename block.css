@@ -1,0 +1,19 @@
+.outer-container {
+    width: 100%;
+}
+
+.block {
+    width: 100%;
+    border: 1px solid white;
+    background-color: gray;
+    text-align: center;
+    padding: .33rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .block {
+        width: 49%;
+        float: left;
+        display: block;
+    }
+}

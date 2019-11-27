@@ -1,0 +1,52 @@
+.small{
+    display: block;
+}
+
+.medium,
+.large,
+.extra-large {
+    display: none;
+}
+
+h1{
+    color: blue;
+}
+
+@media only screen and (min-width: 768px) {
+    .small {
+        display: none;
+    }
+    .medium {
+        display: block;
+    }
+    h1 {
+        color: red;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .small,
+    .medium {
+        display: none;
+    }
+    .large {
+        display: block;
+    }
+    h1 {
+        color: gray;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .small,
+    .medium,
+    .large {
+        display: none;
+    }
+    .extra-large {
+        display: block;
+    }
+    h1{
+        color: black;
+    }
+}
